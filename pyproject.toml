@@ -1,0 +1,28 @@
+[project]
+name = "SPPS"
+version = "1.0"
+description = "We propose a Smart Patient Priority System that automatically decides the priority level of patients based on their symptoms."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "RunTime_Terror", email = "kanav.25bce10417@vitbhopal.ac.in" }
+]
+dependencies = [
+    "flet>=0.84.0"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli>=0.84.0",
+    "flet-desktop>=0.84.0",
+    "flet-web>=0.84.0",
+]
+
+[tool.flet]
+org = "com.runtime_terror"
+product = "spps"
+company = "RunTime_Terror"
+copyright = "Copyright (C) 2023-2026 by RunTime"
+
+[tool.flet.app]
+path = "src"
